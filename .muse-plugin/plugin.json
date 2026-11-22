@@ -13,6 +13,14 @@
       {
         "id": "regulatory-brief",
         "path": "skills/regulatory-brief/SKILL.md"
+      },
+      {
+        "id": "comment-deadlines",
+        "path": "skills/comment-deadlines/SKILL.md"
+      },
+      {
+        "id": "read-federal-document",
+        "path": "skills/read-federal-document/SKILL.md"
       }
     ],
     "mcpServers": [
