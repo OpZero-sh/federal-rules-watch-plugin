@@ -1,6 +1,6 @@
 {
   "name": "federal-rules-watch",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Find recent Federal Register documents, distinguish proposed and final rules, and verify comment deadlines.",
   "author": {
     "name": "OpZero"

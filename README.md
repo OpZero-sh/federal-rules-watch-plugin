@@ -43,9 +43,9 @@ Each skill carries reference files that Claude reads when needed: the legal mean
 
 Both agents are limited to the three read only lookup tools of the connector.
 
-### Hooks
+### Hook
 
-None. The plugin installs no hooks and runs no scripts on your machine during use.
+One `PostToolUse` hook runs in Claude Code after any of the three lookup tools returns. It is the script `hooks/comment-deadlines.cjs`. When the result lists a comment deadline, the hook counts the days left from today's date on your computer and hands Claude that figure with the document number, so an answer such as "closes in 3 days" comes from a calculation. It needs Node.js on your PATH, reads the tool result from standard input, and does not touch files or the network. It never interrupts a tool call.
 
 ## What the plugin connects to
 
