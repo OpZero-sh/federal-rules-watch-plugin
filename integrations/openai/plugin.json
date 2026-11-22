@@ -1,0 +1,30 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "federal-rules-watch",
+  "version": "1.0.0",
+  "description": "Find recent Federal Register documents, distinguish proposed and final rules, and verify comment deadlines.",
+  "author": {
+    "name": "OpZero",
+    "url": "https://opzero.sh"
+  },
+  "homepage": "https://github.com/OpZero-sh/federal-rules-watch-plugin",
+  "repository": "https://github.com/OpZero-sh/federal-rules-watch-plugin",
+  "license": "LicenseRef-OpZero-Plugin",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Federal Rules Watch",
+        "shortDescription": "Follow federal rulemaking",
+        "longDescription": "Find recent Federal Register documents, distinguish proposed and final rules, and verify comment deadlines.",
+        "developerName": "OpZero",
+        "category": "Productivity",
+        "websiteURL": "https://github.com/OpZero-sh/federal-rules-watch-plugin",
+        "privacyPolicyURL": "https://opzero.sh/privacy",
+        "supportURL": "https://opzero.sh/support",
+        "termsOfServiceURL": "https://opzero.sh/terms",
+        "composerIcon": "./assets/icon.png",
+        "logo": "./assets/icon.png"
+      }
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "name": "federal-rules-watch",
+  "version": "1.0.0",
+  "displayName": "Federal Rules Watch",
+  "description": "Find recent Federal Register documents, distinguish proposed and final rules, and verify comment deadlines.",
+  "compat": {
+    "source": "native",
+    "manifestDir": ".muse-plugin"
+  },
+  "capabilities": {
+    "skills": [
+      {
+        "id": "regulatory-brief",
+        "path": "skills/regulatory-brief/SKILL.md"
+      }
+    ],
+    "mcpServers": [
+      {
+        "id": "register",
+        "transport": "http",
+        "url": "https://federal-rules-watch.mcp.opzero.sh/mcp"
+      }
+    ]
+  }
+}

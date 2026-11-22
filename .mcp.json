@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "register": {
+      "type": "http",
+      "url": "https://federal-rules-watch.mcp.opzero.sh/mcp"
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "register": {
+    "url": "https://federal-rules-watch.mcp.opzero.sh/mcp",
+    "allowed_tools": [
+      "get_federal_document",
+      "open_comment_periods",
+      "search_federal_documents"
+    ]
+  }
+}

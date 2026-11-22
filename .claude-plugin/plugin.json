@@ -1,0 +1,17 @@
+{
+  "name": "federal-rules-watch",
+  "version": "1.0.0",
+  "description": "Find recent Federal Register documents, distinguish proposed and final rules, and verify comment deadlines.",
+  "author": {
+    "name": "OpZero"
+  },
+  "homepage": "https://github.com/OpZero-sh/federal-rules-watch-plugin",
+  "repository": "https://github.com/OpZero-sh/federal-rules-watch-plugin",
+  "displayName": "Federal Rules Watch",
+  "documentationUrl": "https://github.com/OpZero-sh/federal-rules-watch-plugin#readme",
+  "privacyPolicyUrl": "https://opzero.sh/privacy",
+  "supportUrl": "https://opzero.sh/support",
+  "termsOfServiceUrl": "https://opzero.sh/terms",
+  "icon": "./assets/icon.png",
+  "license": "LicenseRef-OpZero-Plugin"
+}
